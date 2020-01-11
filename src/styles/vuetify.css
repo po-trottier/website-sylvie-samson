@@ -1,0 +1,13 @@
+.v-application {
+  font-family: "Avenir Next LT", "Roboto", sans-serif !important;
+}
+
+.v-application .headline, h1, h2, h3, h4, h5, h6 {
+  font-family: "Lulo Clean", "Roboto", sans-serif !important;
+}
+
+.v-application a {
+  text-decoration: none !important;
+  color: rgba(0, 0, 0, 0.87) !important;
+  transition: ease 0.3s;
+}

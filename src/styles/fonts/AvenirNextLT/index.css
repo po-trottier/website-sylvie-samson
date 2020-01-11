@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Avenir Next LT';
+    src: local('Avenir Next LT'), local('AvenirNextLTPro'),
+        url('AvenirNextLTPro-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT';
+    src: local('Avenir Next LT Light'), local('AvenirNextLTPro-Light'),
+        url('AvenirNextLTPro-Light.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT';
+    src: local('Avenir Next LT Italic'), local('AvenirNextLTPro-Italic'),
+        url('AvenirNextLTPro-Italic.otf') format('opentype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Avenir Next LT';
+    src: local('Avenir Next LT Bold'), local('AvenirNextLTPro-Bold'),
+        url('AvenirNextLTPro-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+

@@ -1,0 +1,22 @@
+html {
+  overflow: auto !important;
+}
+
+.unselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.avenir {
+  font-family: "Avenir Next LT", "Roboto", sans-serif !important;
+}
+
+.century {
+  font-family: "Century Gothic", "Roboto", sans-serif !important;
+}
+
+.link {
+  cursor: pointer !important;
+}
