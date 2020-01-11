@@ -15,6 +15,10 @@
 export default {
   name: 'Landing',
 
+  metaInfo: {
+    title: 'Travailleuse Sociale | Social Worker',
+  },
+
   methods: {
     setEnglish() {
       this.$i18n.locale = 'en';

@@ -11,3 +11,7 @@
   color: rgba(0, 0, 0, 0.87) !important;
   transition: ease 0.3s;
 }
+
+.v-toolbar__extension {
+  padding: 0;
+}

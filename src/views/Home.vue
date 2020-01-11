@@ -1,18 +1,26 @@
 <template>
   <div>
-    <app-header-bar />
-    <h1>This is the home page</h1>
+    <app-desktop-header />
+    <v-container>
+      <h1>This is the home page</h1>
+      <v-img src="@/assets/logo.png" />
+      <v-img src="@/assets/logo.png" />
+    </v-container>
   </div>
 </template>
 
 <script>
-import HeaderBar from '@/components/App/Header/HeaderBar.vue';
+import DesktopHeader from '@/components/App/Header/DesktopHeader.vue';
 
 export default {
   name: 'Home',
 
+  metaInfo: {
+    title: 'Accueil',
+  },
+
   components: {
-    appHeaderBar: HeaderBar,
+    appDesktopHeader: DesktopHeader,
   },
 };
 </script>
