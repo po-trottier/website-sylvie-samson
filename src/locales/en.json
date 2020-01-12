@@ -7,6 +7,20 @@
     "career": "My career"
   },
 
+  "career": {
+    "title": "Career",
+    "university": "University Education",
+    "universityContent": "As a graduate in Social Services from Sherbrooke University in 1994, I developed the core of my practice by working in the public health system. In order to keep my knowledge up-to-date, I regularly attend conferences, seminars and trainings. Furthermore, I keep up with the new developments in the domain of family intervention and adoption by reading on this subject.\n\n",
+    "psychosocial": "Psychosocial Expertise",
+    "psychosocialContent": "For over 20 years, I have been working in the psychosocial field and dealing with issues affecting families, children, adolescents and young adults. I have acquired a vast experience in parental coaching, working specifically on parent-child dynamics and/or addressing developmental issues when they manifest in children.",
+    "adoption": "Adoption Expertise",
+    "adoptionContent": "For the past 13 years, I have had the chance to work with adoptive families on a daily basis. The animation of pre-adoption workshops for parents and their extended family is part of my field of expertise.  I have also acquired a vast experience in post adoption counselling, which is so important to guide and accompany adoptive parents of children of all ages.",
+    "order": "Professional Order",
+    "orderContent": "I am a social worker member in good standing of the Professional Order of Social Workers and Conjugal and Family Therapists of Quebec; I adhere to their code of ethics.",
+    "orderMember": "Member Number:",
+    "orderNumber": "SAMS94/12/020TS"
+  },
+
   "consult": {
     "title": "Why consult ?",
     "subtitle": "Family Support",
@@ -75,5 +89,10 @@
     "frDescription": "Si vous désirez accéder à ce site en Français, veuillez cliquer sur ce bouton.",
     "en": "English",
     "enDescription": "If you want to access the website in English, please click the following button."
+  },
+
+  "views": {
+    "home": "Home",
+    "landing": "Travailleuse Sociale | Social Worker"
   }
 }

@@ -38,8 +38,10 @@ import BackToTop from '@/components/BackToTop/BackToTop.vue';
 export default {
   name: 'Home',
 
-  metaInfo: {
-    title: 'Accueil',
+  metaInfo() {
+    return {
+      title: this.$t('views.home'),
+    };
   },
 
   computed: {

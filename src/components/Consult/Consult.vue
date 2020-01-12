@@ -1,5 +1,6 @@
 <template>
   <div id="consult">
+    <v-divider />
     <v-sheet
       tile
       color="light">
@@ -82,11 +83,6 @@ export default {
 </script>
 
 <style scoped>
-  .narrow {
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 1400px;
-  }
   .padding {
     padding: 48px;
   }

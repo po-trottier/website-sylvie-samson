@@ -7,6 +7,20 @@
     "career": "Ma carrière"
   },
 
+  "career": {
+    "title": "Carrière",
+    "university": "Formation Universitaire",
+    "universityContent": "Diplômée en service social de l’Université de Sherbrooke en 1994, j’ai développé le cœur de ma pratique en œuvrant dans le réseau de la santé.  Afin de toujours maintenir mes connaissances à jour, je participe régulièrement à des conférences, des séminaires et des formations. De plus, je me garde à l’affut des derniers développements dans le domaine de l’intervention et de l’adoption par des lectures pertinentes.",
+    "psychosocial": "Expertise Psychosociale",
+    "psychosocialContent": "Depuis plus de 20 ans maintenant, j’interviens dans le domaine psychosocial et je soutiens les familles, les enfants, les adolescents et les jeunes adultes. J’ai acquis une vaste expérience que ce soit pour faire du coaching parental, travailler sur les dynamiques parents-enfants ou pour adresser les enjeux développementaux lorsqu’ils se manifestent chez les enfants.",
+    "adoption": "Expertise en Adoption",
+    "adoptionContent": "Depuis maintenant 13 ans, j’ai la chance de travailler quotidiennement auprès de familles adoptantes. L’animation d’ateliers pré-adoption pour les parents ainsi que pour les membres de leur famille, fait partie de mon champ d’expertise.  J’ai aussi acquis une vaste expérience en consultation post-adoption si importante pour guider et accompagner parents et enfants de tout âge.",
+    "order": "Ordre Professionel",
+    "orderContent": "Je suis travailleuse sociale membre en règle de l’Ordre Professionnel des Travailleurs Sociaux et Thérapeutes Conjugaux et Familiaux du Québec, je souscris à leur code de déontologie.",
+    "orderMember": "Membre No:",
+    "orderNumber": "SAMS94/12/020TS"
+  },
+
   "consult": {
     "title": "Pourquoi Consulter ?",
     "subtitle": "Soutien aux familles",
@@ -75,5 +89,10 @@
     "frDescription": "Si vous désirez accéder à ce site en Français, veuillez cliquer sur ce bouton.",
     "en": "English",
     "enDescription": "If you want to access the website in English, please click the following button."
+  },
+
+  "views": {
+    "home": "Accueil",
+    "landing": "Travailleuse Sociale | Social Worker"
   }
 }

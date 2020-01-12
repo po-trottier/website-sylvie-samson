@@ -27,8 +27,10 @@ import LandingFooter from '@/components/Landing/LandingFooter.vue';
 export default {
   name: 'Landing',
 
-  metaInfo: {
-    title: 'Travailleuse Sociale | Social Worker',
+  metaInfo() {
+    return {
+      title: this.$t('views.landing'),
+    };
   },
 
   computed: {
