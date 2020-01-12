@@ -1,4 +1,11 @@
 {
+  "footer": {
+    "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
+    "email": "sylvie.samson.ts@gmail.com",
+    "phone": "(514) 756-4673",
+    "facebook": "Facebook"
+  },
+
   "header": {
     "company": "Sylvie Samson",
     "description": "Social Worker | Travailleuse Sociale",
@@ -17,10 +24,14 @@
     }
   },
 
-  "footer": {
-    "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
-    "email": "sylvie.samson.ts@gmail.com",
-    "phone": "(514) 756-4673",
-    "facebook": "Facebook"
+  "landing":{
+    "company": "Sylvie Samson",
+    "description": "Travailleuse Sociale / Social Worker",
+    "bienvenue": "Bienvenue",
+    "welcome": "Welcome",
+    "fr": "Français",
+    "frDescription": "Si vous désirez accéder à ce site en Français, veuillez cliquer sur ce bouton.",
+    "en": "English",
+    "enDescription": "If you want to access the website in English, please click the following button."
   }
 }

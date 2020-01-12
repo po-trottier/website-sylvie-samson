@@ -1,11 +1,11 @@
 <template>
   <div class="mx-auto pa-5 borders text-center">
-    <h1 class="xl-text">
-      Bienvenue
+    <h1 class="xl-text unselectable">
+      {{ $t('landing.bienvenue') }}
     </h1>
     <div id="separator" />
-    <h1 class="xl-text">
-      Welcome
+    <h1 class="xl-text unselectable">
+      {{ $t('landing.welcome') }}
     </h1>
   </div>
 </template>

@@ -17,10 +17,12 @@
         src="@/assets/logo.png" />
     </v-avatar>
     <div style="display: grid;">
-      <h2 class="large-text">
-        Sylvie Samson
+      <h2 class="large-text unselectable">
+        {{ $t('landing.company') }}
       </h2>
-      <span class="text-uppercase">Travailleuse Sociale / Social Worker</span>
+      <span class="text-uppercase unselectable">
+        {{ $t('landing.description') }}
+      </span>
     </div>
   </div>
 </template>

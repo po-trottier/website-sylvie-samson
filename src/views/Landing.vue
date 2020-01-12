@@ -1,6 +1,7 @@
 <template>
   <div>
     <video
+      v-if="desktop"
       id="landing-video"
       autoplay
       loop>
@@ -8,6 +9,10 @@
         src="@/assets/videos/landing.mp4"
         type="video/mp4">
     </video>
+    <v-img
+      v-else
+      id="landing-image"
+      src="@/assets/images/family.png" />
     <div id="landing-overlay" />
     <app-landing-content id="landing-content" />
     <app-landing-footer id="landing-footer" />
@@ -15,6 +20,7 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
 import LandingContent from '@/components/Landing/LandingContent.vue';
 import LandingFooter from '@/components/Landing/LandingFooter.vue';
 
@@ -23,6 +29,10 @@ export default {
 
   metaInfo: {
     title: 'Travailleuse Sociale | Social Worker',
+  },
+
+  computed: {
+    ...mapGetters('size', ['desktop']),
   },
 
   components: {
@@ -40,10 +50,16 @@ export default {
     object-fit: cover;
   }
 
+  #landing-image {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+  }
+
   #landing-overlay {
     position: fixed;
     background-color: black;
-    opacity: 0.3;
+    opacity: 0.5;
     height: 100vh;
     width: 100vw;
   }

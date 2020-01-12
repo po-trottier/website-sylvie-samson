@@ -8,16 +8,16 @@
       cols="12"
       md="6">
       <p
-        class="mx-auto"
+        class="mx-auto unselectable"
         style="max-width: 350px;">
-        Si vous désirez accéder ce site en Français, veuillez cliquer sur ce bouton.
+        {{ $t('landing.frDescription') }}
       </p>
       <v-btn
         rounded
         depressed
         width="150"
         @click="setFrench">
-        Français
+        {{ $t('landing.fr') }}
       </v-btn>
     </v-col>
     <v-col
@@ -25,16 +25,16 @@
       cols="12"
       md="6">
       <p
-        class="mx-auto"
+        class="mx-auto unselectable"
         style="max-width: 350px;">
-        If you want to access the website in English, please click the following button.
+        {{ $t('landing.enDescription') }}
       </p>
       <v-btn
         rounded
         depressed
         width="150"
         @click="setEnglish">
-        English
+        {{ $t('landing.en') }}
       </v-btn>
     </v-col>
   </v-row>
