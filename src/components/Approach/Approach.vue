@@ -3,7 +3,7 @@
     <v-sheet
       tile
       color="primary">
-      <v-container class="py-12 narrow">
+      <v-container class="padding">
         <v-row
           no-gutters
           justify="center"
@@ -12,7 +12,9 @@
             cols="12"
             md="6"
             lg="5">
-            <v-card class="pa-4">
+            <v-card
+              raised
+              class="pa-4 card-left">
               <v-card-title class="justify-center">
                 <h3 class="mb-2">
                   {{ $t('approach.title') }}
@@ -33,9 +35,13 @@
             cols="12"
             md="6"
             lg="7">
-            <v-card>
+            <v-card class="card-right">
               <v-card-text class="pa-0">
-                <v-img src="@/assets/images/hands.png" />
+                <v-img
+                  max-height="600"
+                  min-height="400"
+                  width="100%"
+                  src="@/assets/images/hands.png" />
               </v-card-text>
             </v-card>
           </v-col>
@@ -53,10 +59,14 @@ export default {
 
 <style scoped>
   .card-left {
-    transform: translateX(230px);
+    position: relative;
+    z-index: 2;
+    transform: translateX(200px);
   }
   .card-right {
-    transform: translateX(-230px);
+    position: relative;
+    z-index: 1;
+    transform: translateX(-200px);
   }
   .padding {
     padding: 64px 0;
