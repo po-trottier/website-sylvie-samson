@@ -1,4 +1,12 @@
 {
+  "about": {
+    "title": "About me",
+    "content1": "I am a professional Social Worker who has been working for over 20 years, and I am as passionate about this profession, as I was when I started in this field.",
+    "content2": "My clinical approach is client centered, offered in a laid back, nonjudgmental and relaxed atmosphere.  I will provide you with a warm support, professional and rigorous services.  My clinical years of experience enables me to accompany and focus on my clients’ needs with active listening and respect. My objective is to provide you with concrete tools that are readily accessible.",
+    "content3": "Over the years of my practice, I have developed a broad range of expertise related to adoption, attachment, family dynamics and relationships.",
+    "career": "My career"
+  },
+
   "footer": {
     "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
     "email": "sylvie.samson.ts@gmail.com",

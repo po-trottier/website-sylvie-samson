@@ -1,4 +1,11 @@
 {
+  "about": {
+    "title": "À propos de moi",
+    "content1": "Je suis une intervenante qui compte plus de 20 ans de pratique auprès des familles et je suis toujours aussi passionnée par la relation d’aide que lors de mes débuts en intervention.",
+    "content2": "Mon approche clinique centrée sur le client et ses besoins.  Je vous propose une écoute attentive et respectueuse, un soutien chaleureux et un accompagnement professionnel et rigoureux, tout cela, dans une atmosphère détendue.  Mon objectif est de vous transmettre des outils concrets et rapidement applicables.",
+    "content3": "Mon parcours m’a amené à développer une vaste expertise en lien avec l’adoption, l’attachement et les interactions familiales. ",
+    "career": "Ma carrière"
+  },
 
   "footer": {
     "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
