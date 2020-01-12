@@ -2,25 +2,27 @@
   <div
     class="text-uppercase my-auto"
     style="display: grid;">
-    <span class="font-weight-bold">
-      Language
+    <span class="font-weight-bold mx-auto">
+      {{ $t('header.language') }}
     </span>
     <v-row
       no-gutters
       justify="end">
-      <span
+      <v-btn
+        text
+        small
         @click="setEnglish"
-        class="link unselectable">
-        En
-      </span>
-      <span class="mx-2 unselectable">
-        |
-      </span>
-      <span
+        class="slim">
+        {{ $t('header.en') }}
+      </v-btn>
+      <span class="mx-1 unselectable">|</span>
+      <v-btn
+        text
+        small
         @click="setFrench"
-        class="link unselectable">
-        Fr
-      </span>
+        class="slim">
+        {{ $t('header.fr') }}
+      </v-btn>
     </v-row>
   </div>
 </template>
@@ -45,3 +47,10 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .slim {
+    padding: 0 8px !important;
+    min-width: 35px !important;
+  }
+</style>

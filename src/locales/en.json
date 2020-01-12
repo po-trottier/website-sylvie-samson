@@ -1,3 +1,26 @@
 {
-  "message": "hello i18n !!"
+  "header": {
+    "company": "Sylvie Samson",
+    "description": "Social Worker | Travailleuse Sociale",
+    "language": "Language",
+    "en": "EN",
+    "fr": "FR",
+    "navigation": {
+      "home": "Home",
+      "about": "About",
+      "whyConsult": "Why consult",
+      "career": "Career",
+      "approach": "Approach",
+      "services": "Services",
+      "contact": "Contact Me",
+      "resources": "Resources"
+    }
+  },
+
+  "footer": {
+    "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
+    "email": "sylvie.samson.ts@gmail.com",
+    "phone": "(514) 756-4673",
+    "facebook": "Facebook"
+  }
 }

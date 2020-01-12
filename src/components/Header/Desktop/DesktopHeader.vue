@@ -34,7 +34,7 @@
 <script>
 import CompanyLogo from './CompanyLogo.vue';
 import LanguageSwitcher from './LanguageSwitcher.vue';
-import Navigation from './Navigation.vue';
+import Navigation from './NavigationLinks.vue';
 
 export default {
   name: 'DesktopHeader',

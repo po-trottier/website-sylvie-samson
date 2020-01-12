@@ -11,11 +11,11 @@
     <div
       class="unselectable my-auto"
       style="display: grid;">
-      <span class="headline text-uppercase font-weight-bold">
-        Sylvie Samson
-      </span>
+      <h3 class="headline text-uppercase font-weight-bold">
+        {{ $t('header.company') }}
+      </h3>
       <span class="text-none">
-        Travailleuse Sociale | Social Worker
+        {{ $t('header.description') }}
       </span>
     </div>
   </router-link>

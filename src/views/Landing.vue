@@ -1,16 +1,22 @@
 <template>
-  <div class="home">
-    <h1>This is the Landing Page</h1>
-    <v-btn @click="setFrench">
-      Français
-    </v-btn>
-    <v-btn @click="setEnglish">
-      English
-    </v-btn>
+  <div>
+    <video
+      id="landing-video"
+      autoplay
+      loop>
+      <source
+        src="@/assets/videos/landing.mp4"
+        type="video/mp4">
+    </video>
+    <div id="landing-overlay" />
+    <app-landing-content id="landing-content" />
+    <app-landing-footer id="landing-footer" />
   </div>
 </template>
 
 <script>
+import LandingContent from '@/components/Landing/LandingContent.vue';
+import LandingFooter from '@/components/Landing/LandingFooter.vue';
 
 export default {
   name: 'Landing',
@@ -19,19 +25,55 @@ export default {
     title: 'Travailleuse Sociale | Social Worker',
   },
 
-  methods: {
-    setEnglish() {
-      this.$i18n.locale = 'en';
-      if (this.$route.name !== 'home') {
-        this.$router.replace({ name: 'home' });
-      }
-    },
-    setFrench() {
-      this.$i18n.locale = 'fr';
-      if (this.$route.name !== 'accueil') {
-        this.$router.replace({ name: 'accueil' });
-      }
-    },
+  components: {
+    appLandingContent: LandingContent,
+    appLandingFooter: LandingFooter,
   },
 };
 </script>
+
+<style scoped>
+  #landing-video {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+  }
+
+  #landing-overlay {
+    position: fixed;
+    background-color: black;
+    opacity: 0.3;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #landing-content {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+  }
+
+  #landing-footer {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @media screen and (max-height: 1100px) {
+    #landing-content {
+      position: relative;
+      left: 0;
+      top: 0;
+      transform: translate(0, 0);
+    }
+    #landing-footer {
+      position: relative;
+      margin-top: 64px;
+    }
+  }
+</style>
