@@ -41,7 +41,7 @@
                   large
                   class="px-4 mx-auto"
                   @click="$vuetify.goTo('#career', { duration: 500 })">
-                  Ma carrière
+                  {{ $t('about.career') }}
                 </v-btn>
               </v-card-actions>
             </v-card>

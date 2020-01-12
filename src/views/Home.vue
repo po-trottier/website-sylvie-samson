@@ -9,8 +9,8 @@
     <!--Page Content-->
     <app-home style="margin-top: -100px;" />
     <app-about />
-    <app-consult />
     <app-career />
+    <app-consult />
     <app-approach />
     <app-services />
     <app-contact />

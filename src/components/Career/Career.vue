@@ -1,6 +1,6 @@
 <template>
   <div id="career">
-    <v-container class="py-10">
+    <v-container class="pt-10">
       <h1 class="text-center mb-6">
         {{ $t('career.title') }}
       </h1>
