@@ -38,12 +38,14 @@ export default {
       this.$i18n.locale = 'en';
       if (this.$route.name !== 'home') {
         this.$router.replace({ name: 'home' });
+        this.$vuetify.goTo('#top', { duration: 500 });
       }
     },
     setFrench() {
       this.$i18n.locale = 'fr';
       if (this.$route.name !== 'accueil') {
         this.$router.replace({ name: 'accueil' });
+        this.$vuetify.goTo('#top', { duration: 500 });
       }
     },
   },

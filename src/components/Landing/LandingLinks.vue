@@ -15,6 +15,7 @@
       <v-btn
         rounded
         depressed
+        large
         color="white"
         width="150"
         @click="setFrench">
@@ -33,6 +34,7 @@
       <v-btn
         rounded
         depressed
+        large
         color="white"
         width="150"
         @click="setEnglish">

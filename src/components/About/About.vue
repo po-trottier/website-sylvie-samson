@@ -3,12 +3,11 @@
     <v-sheet
       tile
       color="primary">
-      <v-container class="py-10 justify-center">
+      <v-container class="padding justify-center">
         <v-row
           no-gutters
           justify="center"
-          align="center"
-          class="my-5">
+          align="center">
           <v-col
             cols="12"
             md="7">
@@ -29,7 +28,7 @@
                   {{ $t('about.title') }}
                 </h3>
               </v-card-title>
-              <v-card-text class="text-justify py-0">
+              <v-card-text class="text-center py-0">
                 <p>{{ $t('about.content1') }}</p>
                 <p>{{ $t('about.content2') }}</p>
                 <p>{{ $t('about.content3') }}</p>
@@ -66,6 +65,9 @@ export default {
   .card-right {
     transform: translateX(-230px);
   }
+  .padding {
+    padding: 64px 0;
+  }
 
   @media screen and (max-width: 1903px) {
     .card-left {
@@ -90,10 +92,13 @@ export default {
       transform: translateX(0);
       margin-left: auto;
       margin-right: auto;
-      margin-bottom: 48px;
+      margin-bottom: 16px;
     }
     .card-right {
       transform: translateX(0);
+    }
+    .padding {
+      padding: 16px 16px;
     }
   }
 </style>

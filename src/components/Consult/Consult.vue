@@ -1,37 +1,47 @@
 <template>
-  <div
-    id="consult"
-    class="py-10">
-    <v-container class="py-10 narrow">
-      <div class="text-center">
-        <h3>
-          {{ $t('consult.title') }}
-        </h3>
-        <h4 class="avenir font-weight-regular">
-          {{ $t('consult.subtitle') }}
-        </h4>
-      </div>
-      <v-divider class="ma-6" />
-      <div class="text--secondary mx-6">
-        <p>{{ $t('consult.content1') }}</p>
-        <ul class="mb-4">
-          <li
-            v-for="bullet in bullets1"
-            :key="bullet.id">
-            {{ bullet }}
-          </li>
-        </ul>
-        <p>{{ $t('consult.content2') }}</p>
-        <ul class="mb-4">
-          <li
-            v-for="bullet in bullets2"
-            :key="bullet.id">
-            {{ bullet }}
-          </li>
-        </ul>
-        <p>{{ $t('consult.content3') }}</p>
-      </div>
-    </v-container>
+  <div id="consult">
+    <v-sheet
+      tile
+      color="light">
+      <v-container class="padding narrow">
+        <v-card
+          flat
+          outlined
+          class="card-padding">
+          <v-card-title class="justify-center mb-3">
+            <h3 class="text-center">
+              {{ $t('consult.title') }}
+            </h3>
+          </v-card-title>
+          <v-card-subtitle class="text-center">
+            <h4 class="avenir font-weight-regular">
+              {{ $t('consult.subtitle') }}
+            </h4>
+          </v-card-subtitle>
+          <v-divider class="mx-6 mb-4" />
+          <v-card-text class="text--secondary px-6">
+            <p>{{ $t('consult.content1') }}</p>
+            <ul class="mb-4">
+              <li
+                v-for="bullet in bullets1"
+                :key="bullet.id">
+                {{ bullet }}
+              </li>
+            </ul>
+            <p>{{ $t('consult.content2') }}</p>
+            <ul class="mb-4">
+              <li
+                v-for="bullet in bullets2"
+                :key="bullet.id">
+                {{ bullet }}
+              </li>
+            </ul>
+            <p>{{ $t('consult.content3') }}</p>
+          </v-card-text>
+        </v-card>
+      </v-container>
+    </v-sheet>
+    <v-divider />
   </div>
 </template>
 
@@ -75,6 +85,21 @@ export default {
   .narrow {
     margin-left: auto;
     margin-right: auto;
-    max-width: 1350px;
+    max-width: 1400px;
+  }
+  .padding {
+    padding: 48px;
+  }
+  .card-padding {
+    padding: 16px;
+  }
+
+  @media screen and (max-width: 960px) {
+    .padding {
+      padding: 16px;
+    }
+    .card-padding {
+      padding: 0;
+    }
   }
 </style>

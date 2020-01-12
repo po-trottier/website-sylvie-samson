@@ -7,16 +7,34 @@
         height="64"
         class="my-4" />
       <div
-        class="unselectable mx-auto my-4 text-center"
+        class="unselectable mx-auto text-center"
         style="display: grid; line-height: 1.4rem; opacity: 0.9;">
         <h4 class="text-uppercase font-weight-bold">
           {{ $t('header.company') }}
         </h4>
-        <span class="text-none text--secondary">
-          {{ $t('header.description') }}
-        </span>
       </div>
     </router-link>
+    <v-container class="text-center">
+      <v-row
+        no-gutters
+        justify="center">
+        <v-btn
+          text
+          small
+          @click="setEnglish"
+          class="slim">
+          {{ $t('header.en') }}
+        </v-btn>
+        <span class="mx-1 unselectable">|</span>
+        <v-btn
+          text
+          small
+          @click="setFrench"
+          class="slim">
+          {{ $t('header.fr') }}
+        </v-btn>
+      </v-row>
+    </v-container>
     <v-divider />
     <v-sheet
       tile
@@ -39,41 +57,6 @@
           </v-list-item-content>
         </v-list-item>
       </v-list>
-      <div
-        class="w-100"
-        style="position: absolute; bottom: 0;">
-        <v-divider />
-        <v-sheet
-          tile
-          color="white">
-          <v-container class="text-center">
-            <span
-              style="font-size: larger;"
-              class="mb-2 font-weight-bold text-uppercase">
-              {{ $t('header.language') }}
-            </span>
-            <v-row
-              no-gutters
-              justify="center">
-              <v-btn
-                text
-                small
-                @click="setEnglish"
-                class="slim">
-                {{ $t('header.en') }}
-              </v-btn>
-              <span class="mx-1 unselectable">|</span>
-              <v-btn
-                text
-                small
-                @click="setFrench"
-                class="slim">
-                {{ $t('header.fr') }}
-              </v-btn>
-            </v-row>
-          </v-container>
-        </v-sheet>
-      </div>
     </v-sheet>
   </div>
 </template>
@@ -105,12 +88,14 @@ export default {
       this.$i18n.locale = 'en';
       if (this.$route.name !== 'home') {
         this.$router.replace({ name: 'home' });
+        this.scrollTo('#top');
       }
     },
     setFrench() {
       this.$i18n.locale = 'fr';
       if (this.$route.name !== 'accueil') {
         this.$router.replace({ name: 'accueil' });
+        this.scrollTo('#top');
       }
     },
     scrollTo(tag) {

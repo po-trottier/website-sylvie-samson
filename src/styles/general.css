@@ -2,6 +2,13 @@ html {
   overflow: auto !important;
 }
 
+::selection {
+  background: rgba(178, 211, 48, 0.6);
+}
+::-moz-selection {
+  background: rgba(178, 211, 48, 0.6);
+}
+
 .unselectable {
   -webkit-user-select: none;
   -moz-user-select: none;
