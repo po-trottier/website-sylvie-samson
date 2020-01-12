@@ -18,9 +18,9 @@
 }
 
 .v-toolbar__extension {
-  padding: 0;
+  padding: 0 !important;
 }
 
 .v-parallax__content {
-  padding: 0;
+  padding: 0 !important;
 }
