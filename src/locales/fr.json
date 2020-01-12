@@ -25,6 +25,13 @@
     }
   },
 
+  "home":{
+    "name": "Travailleuse sociale",
+    "tagline": "À votre service",
+    "description": "Je suis une travailleuse sociale d’expérience offrant des services psychosociaux aux familles de la grande région de Montréal.  Les formations que j’offre en adoption ainsi qu’en attachement sont disponibles à toutes les régions du Québec.  N’hésitez pas à me contacter. Travailler avec vous sera toujours un plaisir.",
+    "action": "Me contacter"
+  },
+
   "landing":{
     "company": "Sylvie Samson",
     "description": "Travailleuse Sociale / Social Worker",

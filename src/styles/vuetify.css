@@ -12,6 +12,15 @@
   transition: ease 0.3s;
 }
 
+.v-card {
+  overflow: auto;
+  border-radius: 8px !important;
+}
+
 .v-toolbar__extension {
+  padding: 0;
+}
+
+.v-parallax__content {
   padding: 0;
 }

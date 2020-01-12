@@ -2,12 +2,14 @@
   <div
     class="text-uppercase my-auto"
     style="display: grid;">
-    <span class="font-weight-bold mx-auto">
+    <span
+      style="font-size: larger;"
+      class="font-weight-bold mx-auto avenir">
       {{ $t('header.language') }}
     </span>
     <v-row
       no-gutters
-      justify="end">
+      justify="center">
       <v-btn
         text
         small

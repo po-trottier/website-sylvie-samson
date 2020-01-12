@@ -5,6 +5,7 @@
     tile
     extended
     hide-on-scroll
+    scroll-threshold="1"
     extension-height="48"
     height="110"
     color="white">

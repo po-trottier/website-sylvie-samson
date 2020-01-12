@@ -7,13 +7,15 @@
       <app-mobile-drawer />
     </div>
     <!--Page Content-->
-    <app-home />
+    <app-home style="margin-top: -10px;" />
     <app-about />
     <app-consult />
     <app-career />
     <app-approach />
     <app-services />
     <app-contact />
+    <!--Back To Top-->
+    <app-back-to-top />
   </div>
 </template>
 
@@ -31,6 +33,7 @@ import Career from '@/components/Career/Career.vue';
 import Approach from '@/components/Approach/Approach.vue';
 import Services from '@/components/Services/Services.vue';
 import Contact from '@/components/Contact/Contact.vue';
+import BackToTop from '@/components/BackToTop/BackToTop.vue';
 
 export default {
   name: 'Home',
@@ -54,6 +57,7 @@ export default {
     appApproach: Approach,
     appServices: Services,
     appContact: Contact,
+    appBackToTop: BackToTop,
   },
 };
 </script>

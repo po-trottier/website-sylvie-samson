@@ -15,6 +15,7 @@
       <v-btn
         rounded
         depressed
+        color="white"
         width="150"
         @click="setFrench">
         {{ $t('landing.fr') }}
@@ -32,6 +33,7 @@
       <v-btn
         rounded
         depressed
+        color="white"
         width="150"
         @click="setEnglish">
         {{ $t('landing.en') }}

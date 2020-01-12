@@ -24,6 +24,13 @@
     }
   },
 
+  "home":{
+    "name": "Social Worker",
+    "tagline": "At your service",
+    "description": "I am an experienced social worker offering psychosocial services to families in the greater Montreal area. I offer workshops on adoption and attachment throughout the regions of Quebec. Please feel free to contact me; it will be a pleasure to work with you.",
+    "action": "Contact me"
+  },
+
   "landing":{
     "company": "Sylvie Samson",
     "description": "Travailleuse Sociale / Social Worker",
