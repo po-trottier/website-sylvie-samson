@@ -7,6 +7,33 @@
     "career": "Ma carrière"
   },
 
+  "consult": {
+    "title": "Pourquoi Consulter ?",
+    "subtitle": "Soutien aux familles",
+    "content1": "Dans cette ère du temps où nous nous trouvons, il n’est pas toujours simple d’élever nos enfants. Tout au long du développement des enfants, plusieurs parents peuvent éprouver des besoins relativement à :",
+    "bullet1": "La routine du coucher, les cauchemars ou terreurs nocturnes,",
+    "bullet2": "La transition vers la garderie, ou à l’école",
+    "bullet3": "L’anxiété de séparation",
+    "bullet4": "Les réactions à l’arrivée d’un deuxième enfant",
+    "bullet5": "Les crises de colère et la difficulté à revenir au calme",
+    "bullet6": "L’opposition de l’enfant aux demandes parentales",
+    "bullet7": "L’adaptation à la famille recomposée",
+    "bullet8": "Des enjeux d’attachement",
+    "bullet9": "L’adolescence et ses questionnements identitaires",
+    "bullet10": "Le bon développement émotif des enfants",
+    "bullet11": "L’adaptation de votre enfant suivant son adoption",
+    "content2": "Les parents peuvent également rencontrer des défis dans l’accomplissement de leurs rôles parentaux. Tel que :",
+    "bullet12": "S’adapter au nouveau rôle de parent",
+    "bullet13": "Se sentir compétent et efficace comme parent",
+    "bullet14": "Trouver une complémentarité dans leurs méthodes éducatives",
+    "bullet15": "Développer une structure et un encadrement qui respecte les capacités de son enfant",
+    "bullet16": "Besoin de se sentir mieux outillé devant les crises de colère de son enfant",
+    "bullet17": "Améliorer leurs stratégies de communication avec leur enfant",
+    "bullet18": "Savoir composer avec ses propres attentes, en tant que parent",
+    "bullet19": "Savoir comment adresser des enjeux spécifiques à l’adoption",
+    "content3": "La consultation psychosocial est un moyen efficace de vous aider à développer une nouvelle façon d’envisager les défis parentaux et/ou relationnels. L’intervention clinique vous permettra de retrouver un état de mieux-être ou l’équilibre tant convoité afin d’affronter la vie sous un meilleur angle."
+  },
+
   "footer": {
     "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
     "email": "sylvie.samson.ts@gmail.com",

@@ -61,10 +61,19 @@ export default {
 
 <style scoped>
   .card-left {
-    transform: translateX(60px);
+    transform: translateX(230px);
   }
   .card-right {
-    transform: translateX(-60px);
+    transform: translateX(-230px);
+  }
+
+  @media screen and (max-width: 1903px) {
+    .card-left {
+      transform: translateX(60px);
+    }
+    .card-right {
+      transform: translateX(-60px);
+    }
   }
 
   @media screen and (max-width: 1263px) {

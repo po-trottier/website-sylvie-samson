@@ -1,5 +1,6 @@
 .v-application {
   font-family: "Avenir Next LT", "Roboto", sans-serif !important;
+  background-color: white !important;
 }
 
 .v-application .headline, h1, h2, h3, h4, h5, h6 {
