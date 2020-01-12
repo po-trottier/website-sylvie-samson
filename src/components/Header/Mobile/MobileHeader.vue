@@ -16,9 +16,9 @@
       v-if="!phone"
       class="unselectable my-auto"
       style="display: grid; line-height: 1.4rem; opacity: 0.9;">
-      <h3 class="text-uppercase font-weight-bold">
+      <h4 class="text-uppercase font-weight-bold">
         {{ $t('header.company') }}
-      </h3>
+      </h4>
       <span class="text-none text--secondary">
         {{ $t('header.description') }}
       </span>

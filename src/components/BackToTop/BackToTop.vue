@@ -27,7 +27,7 @@ export default {
 
   computed: {
     show() {
-      return this.scroll > 500;
+      return this.scroll > 400;
     },
   },
 

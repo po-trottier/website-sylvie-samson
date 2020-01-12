@@ -11,9 +11,9 @@
     <div
       class="unselectable my-auto"
       style="display: grid;">
-      <h3 class="headline text-uppercase font-weight-bold">
+      <h4 class="headline text-uppercase font-weight-bold">
         {{ $t('header.company') }}
-      </h3>
+      </h4>
       <span class="text-none">
         {{ $t('header.description') }}
       </span>

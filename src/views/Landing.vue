@@ -12,7 +12,7 @@
     <v-img
       v-else
       id="landing-image"
-      src="@/assets/images/family.png" />
+      src="@/assets/family.png" />
     <div id="landing-overlay" />
     <app-landing-content id="landing-content" />
     <app-landing-footer id="landing-footer" />

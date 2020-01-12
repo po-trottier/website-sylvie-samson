@@ -24,7 +24,7 @@
             <v-card
               raised
               class="card-right pa-4">
-              <v-card-title class="justify-center">
+              <v-card-title class="justify-center mb-2">
                 <h3 class="text-center">
                   {{ $t('about.title') }}
                 </h3>
@@ -65,6 +65,15 @@ export default {
   }
   .card-right {
     transform: translateX(-60px);
+  }
+
+  @media screen and (max-width: 1263px) {
+    .card-left {
+      transform: translateX(20px);
+    }
+    .card-right {
+      transform: translateX(-20px);
+    }
   }
 
   @media screen and (max-width: 960px) {

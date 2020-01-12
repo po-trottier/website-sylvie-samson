@@ -2,7 +2,7 @@
   <div id="top">
     <v-parallax
       height="700"
-      src="@/assets/images/family.png">
+      src="@/assets/family.png">
       <div id="home-overlay" />
       <v-container class="elevate text-center">
         <h2>

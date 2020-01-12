@@ -9,9 +9,9 @@
       <div
         class="unselectable mx-auto my-4 text-center"
         style="display: grid; line-height: 1.4rem; opacity: 0.9;">
-        <h3 class="text-uppercase font-weight-bold">
+        <h4 class="text-uppercase font-weight-bold">
           {{ $t('header.company') }}
-        </h3>
+        </h4>
         <span class="text-none text--secondary">
           {{ $t('header.description') }}
         </span>
@@ -47,9 +47,11 @@
           tile
           color="white">
           <v-container class="text-center">
-            <h4 class="mb-2">
+            <span
+              style="font-size: larger;"
+              class="mb-2 font-weight-bold text-uppercase">
               {{ $t('header.language') }}
-            </h4>
+            </span>
             <v-row
               no-gutters
               justify="center">
