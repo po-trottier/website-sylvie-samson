@@ -7,6 +7,13 @@
     "career": "My career"
   },
 
+  "approach": {
+    "title": "Approach",
+    "subtitle": "A modern and efficient approach.",
+    "content1": "I use a systemic approach, that is to say that I work with the individual in the context of their larger environment. This intervention model allows clients to better understand their present functioning within the context of interactions with others and their environment. ",
+    "content2": "This approach supports clients’ self-determination which means that each client has the ability to decide what is best for him/herself. As such, a common language and understanding of the issue will be defined and new ways of thinking and identifying new strategies will be established.  The ultimate goal is for clients to feel a greater sense of personal and family empowerment in their day to day lives."
+  },
+
   "career": {
     "title": "Career",
     "university": "University Education",

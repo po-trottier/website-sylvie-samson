@@ -7,6 +7,13 @@
     "career": "Ma carrière"
   },
 
+  "approach": {
+    "title": "Approche",
+    "subtitle": "Une approche moderne et efficace.",
+    "content1": "J’utilise une approche systémique, c’est-à-dire que je travaille avec l’individu dans son contexte de vie présent.   Ce modèle d’intervention permet à chacun de mieux comprendre les interactions qu’il entretient avec les différents acteurs de son milieu et de mieux saisir leurs impacts sur l’un et l’autre.",
+    "content2": "Je crois que chacun de mes clients a la capacité de décider ce qui est le mieux pour lui ou elle. C’est pourquoi je prendrai le temps de développer avec vous un langage commun, c’est-à-dire une compréhension commune de la problématique qui vous affecte. Je vous donnerai accès à de nouvelles pistes de réflexion ou à de nouveaux outils d’interventions. Finalement, je pourrai vous guider et vous offrir le support requis pour que vous arriviez à de nouvelles façons de faire. Le but est de vous amener à ressentir un plus grand sentiment d’épanouissement personnel ou familial dans votre vie de tous les jours."
+  },
+
   "career": {
     "title": "Carrière",
     "university": "Formation Universitaire",

@@ -26,7 +26,7 @@ import DesktopHeader from '@/components/Header/Desktop/DesktopHeader.vue';
 import MobileHeader from '@/components/Header/Mobile/MobileHeader.vue';
 import MobileDrawer from '@/components/Header/Mobile/NavigationDrawer.vue';
 
-import Home from '@/components/Home/Home.vue';
+import Home from '@/components/Hero/Hero.vue';
 import About from '@/components/About/About.vue';
 import Consult from '@/components/Consult/Consult.vue';
 import Career from '@/components/Career/Career.vue';

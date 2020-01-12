@@ -84,7 +84,7 @@ export default {
 
 <style scoped>
   .padding {
-    padding: 48px;
+    padding: 48px 12px;
   }
   .card-padding {
     padding: 16px;

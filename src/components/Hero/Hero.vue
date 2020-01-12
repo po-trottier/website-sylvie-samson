@@ -1,9 +1,9 @@
 <template>
   <div id="top">
     <v-parallax
-      height="700"
+      height="900"
       style="padding-top: 100px"
-      src="@/assets/family.png">
+      src="@/assets/images/family.png">
       <div id="home-overlay" />
       <v-container class="elevate text-center">
         <h2>
@@ -40,7 +40,7 @@ export default {
   #home-overlay {
     position: absolute;
     width: 100vw;
-    height: 800px;
+    height: 1000px;
     background-color: black;
     opacity: 0.40;
   }

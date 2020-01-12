@@ -14,7 +14,9 @@
             <v-card
               class="card-left"
               width="600">
-              <v-img src="@/assets/profile.png" />
+              <v-card-text class="pa-0">
+                <v-img src="@/assets/images/profile.png" />
+              </v-card-text>
             </v-card>
           </v-col>
           <v-col
