@@ -72,8 +72,8 @@ export default {
       return [
         { text: this.$t('header.navigation.home'), tag: '#top' },
         { text: this.$t('header.navigation.about'), tag: '#about' },
-        { text: this.$t('header.navigation.whyConsult'), tag: '#consult' },
         { text: this.$t('header.navigation.career'), tag: '#career' },
+        { text: this.$t('header.navigation.whyConsult'), tag: '#consult' },
         { text: this.$t('header.navigation.approach'), tag: '#approach' },
         { text: this.$t('header.navigation.services'), tag: '#services' },
         { text: this.$t('header.navigation.contact'), tag: '#contact' },
