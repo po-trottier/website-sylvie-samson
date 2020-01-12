@@ -2,6 +2,7 @@
   <div id="top">
     <v-parallax
       height="700"
+      style="padding-top: 100px"
       src="@/assets/family.png">
       <div id="home-overlay" />
       <v-container class="elevate text-center">
@@ -39,7 +40,7 @@ export default {
   #home-overlay {
     position: absolute;
     width: 100vw;
-    height: 700px;
+    height: 800px;
     background-color: black;
     opacity: 0.40;
   }

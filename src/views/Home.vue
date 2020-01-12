@@ -7,7 +7,7 @@
       <app-mobile-drawer />
     </div>
     <!--Page Content-->
-    <app-home style="margin-top: -10px;" />
+    <app-home style="margin-top: -100px;" />
     <app-about />
     <app-consult />
     <app-career />
