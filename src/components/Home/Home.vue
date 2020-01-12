@@ -52,4 +52,10 @@ export default {
   .xl-text {
     font-size: 60px;
   }
+
+  @media screen and (max-width: 960px) {
+    .xl-text {
+      font-size: 45px;
+    }
+  }
 </style>

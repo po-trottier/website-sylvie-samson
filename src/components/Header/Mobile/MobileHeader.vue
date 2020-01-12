@@ -13,6 +13,7 @@
       src="@/assets/logo.png"
       width="35" />
     <div
+      v-if="!phone"
       class="unselectable my-auto"
       style="display: grid; line-height: 1.4rem; opacity: 0.9;">
       <h3 class="text-uppercase font-weight-bold">
@@ -28,10 +29,14 @@
 </template>
 
 <script>
-import { mapActions } from 'vuex';
+import { mapActions, mapGetters } from 'vuex';
 
 export default {
   name: 'MobileHeader',
+
+  computed: {
+    ...mapGetters('size', ['phone']),
+  },
 
   methods: {
     ...mapActions('drawer', ['setDrawer']),

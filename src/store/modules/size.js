@@ -5,6 +5,7 @@ const state = {
 
 const getters = {
   desktop: s => s.width > 960,
+  phone: s => s.width <= 600,
   short: s => s.height < 1100,
 };
 

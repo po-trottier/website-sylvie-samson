@@ -5,7 +5,17 @@
         contain
         src="@/assets/logo.png"
         height="64"
-        class="my-5" />
+        class="my-4" />
+      <div
+        class="unselectable mx-auto my-4 text-center"
+        style="display: grid; line-height: 1.4rem; opacity: 0.9;">
+        <h3 class="text-uppercase font-weight-bold">
+          {{ $t('header.company') }}
+        </h3>
+        <span class="text-none text--secondary">
+          {{ $t('header.description') }}
+        </span>
+      </div>
     </router-link>
     <v-divider />
     <v-sheet
