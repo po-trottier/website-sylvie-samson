@@ -14,6 +14,8 @@
     <app-approach />
     <app-services />
     <app-contact />
+    <app-resources />
+    <app-footer />
     <!--Back To Top-->
     <app-back-to-top />
   </div>
@@ -34,6 +36,8 @@ import Approach from '@/components/Approach/Approach.vue';
 import Services from '@/components/Services/Services.vue';
 import Contact from '@/components/Contact/Contact.vue';
 import BackToTop from '@/components/BackToTop/BackToTop.vue';
+import Resources from '@/components/Resources/Resources.vue';
+import Footer from '@/components/Footer/Footer.vue';
 
 export default {
   name: 'Home',
@@ -59,6 +63,8 @@ export default {
     appApproach: Approach,
     appServices: Services,
     appContact: Contact,
+    appResources: Resources,
+    appFooter: Footer,
     appBackToTop: BackToTop,
   },
 };

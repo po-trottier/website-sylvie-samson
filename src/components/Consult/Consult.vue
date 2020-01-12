@@ -19,7 +19,7 @@
               {{ $t('consult.subtitle') }}
             </h4>
           </v-card-subtitle>
-          <v-divider class="mx-6 mb-4" />
+          <v-divider class="mx-6 my-4" />
           <v-card-text class="text--secondary px-6">
             <p>{{ $t('consult.content1') }}</p>
             <ul class="mb-4">
