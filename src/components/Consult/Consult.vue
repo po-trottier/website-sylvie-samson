@@ -5,41 +5,62 @@
       tile
       color="light">
       <v-container class="padding narrow">
-        <v-card
-          flat
-          outlined
-          class="card-padding">
-          <v-card-title class="justify-center mb-3">
-            <h3 class="text-center">
-              {{ $t('consult.title') }}
-            </h3>
-          </v-card-title>
-          <v-card-subtitle class="text-center">
-            <h4 class="avenir font-weight-regular">
-              {{ $t('consult.subtitle') }}
-            </h4>
-          </v-card-subtitle>
-          <v-divider class="mx-6 my-4" />
-          <v-card-text class="text--secondary px-6">
-            <p>{{ $t('consult.content1') }}</p>
-            <ul class="mb-4">
-              <li
-                v-for="bullet in bullets1"
-                :key="bullet.id">
-                {{ bullet }}
-              </li>
-            </ul>
-            <p>{{ $t('consult.content2') }}</p>
-            <ul class="mb-4">
-              <li
-                v-for="bullet in bullets2"
-                :key="bullet.id">
-                {{ bullet }}
-              </li>
-            </ul>
-            <p>{{ $t('consult.content3') }}</p>
-          </v-card-text>
-        </v-card>
+        <v-row>
+          <v-col
+            cols="12"
+            md="4"
+            class="hide-mobile">
+            <v-card
+              height="100%"
+              flat
+              outlined>
+              <v-card-text class="pa-0">
+                <v-img
+                  height="825px"
+                  src="@/assets/images/session.jpg" />
+              </v-card-text>
+            </v-card>
+          </v-col>
+          <v-col
+            cols="12"
+            md="8">
+            <v-card
+              flat
+              outlined
+              class="card-padding">
+              <v-card-title class="justify-center mb-3">
+                <h3 class="text-center">
+                  {{ $t('consult.title') }}
+                </h3>
+              </v-card-title>
+              <v-card-subtitle class="text-center">
+                <h4 class="avenir font-weight-regular">
+                  {{ $t('consult.subtitle') }}
+                </h4>
+              </v-card-subtitle>
+              <v-divider class="mx-6 my-4" />
+              <v-card-text class="text--secondary px-6">
+                <p>{{ $t('consult.content1') }}</p>
+                <ul class="mb-4">
+                  <li
+                    v-for="bullet in bullets1"
+                    :key="bullet.id">
+                    {{ bullet }}
+                  </li>
+                </ul>
+                <p>{{ $t('consult.content2') }}</p>
+                <ul class="mb-4">
+                  <li
+                    v-for="bullet in bullets2"
+                    :key="bullet.id">
+                    {{ bullet }}
+                  </li>
+                </ul>
+                <p>{{ $t('consult.content3') }}</p>
+              </v-card-text>
+            </v-card>
+          </v-col>
+        </v-row>
       </v-container>
     </v-sheet>
     <v-divider />
@@ -96,6 +117,9 @@ export default {
     }
     .card-padding {
       padding: 0;
+    }
+    .hide-mobile {
+      display: none;
     }
   }
 </style>
