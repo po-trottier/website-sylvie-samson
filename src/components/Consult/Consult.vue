@@ -10,16 +10,10 @@
             cols="12"
             md="4"
             class="hide-mobile">
-            <v-card
+            <v-img
               height="100%"
-              flat
-              outlined>
-              <v-card-text class="pa-0">
-                <v-img
-                  height="825px"
-                  src="@/assets/images/session.jpg" />
-              </v-card-text>
-            </v-card>
+              class="rounded-card outlined"
+              src="@/assets/images/session.jpg" />
           </v-col>
           <v-col
             cols="12"

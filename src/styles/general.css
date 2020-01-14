@@ -27,3 +27,11 @@ html {
 .link {
   cursor: pointer !important;
 }
+
+.rounded-card {
+  border-radius: 8px;
+}
+
+.outlined {
+  border: thin solid rgba(0, 0, 0, 0.12);
+}

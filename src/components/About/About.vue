@@ -11,13 +11,10 @@
           <v-col
             cols="12"
             md="7">
-            <v-card
-              class="card-left"
-              width="600">
-              <v-card-text class="pa-0">
-                <v-img src="@/assets/images/profile.png" />
-              </v-card-text>
-            </v-card>
+            <v-img
+              width="600"
+              class="card-left rounded-card outlined"
+              src="@/assets/images/profile.png" />
           </v-col>
           <v-col
             cols="12"

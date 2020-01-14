@@ -35,15 +35,12 @@
             cols="12"
             md="6"
             lg="7">
-            <v-card class="card-right">
-              <v-card-text class="pa-0">
-                <v-img
-                  max-height="600"
-                  min-height="400"
-                  width="100%"
-                  src="@/assets/images/hands.png" />
-              </v-card-text>
-            </v-card>
+            <v-img
+              class="card-right rounded-card outlined"
+              max-height="600"
+              min-height="400"
+              width="100%"
+              src="@/assets/images/hands.png" />
           </v-col>
         </v-row>
       </v-container>
