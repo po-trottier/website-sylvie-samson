@@ -71,7 +71,7 @@ export default {
     z-index: 1;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -70%);
+    transform: translate(-50%, -60%);
   }
 
   #landing-footer {
@@ -82,7 +82,7 @@ export default {
     transform: translateX(-50%);
   }
 
-  @media screen and (max-height: 1100px) {
+  @media screen and (max-height: 800px), (max-width: 960px) {
     #landing-content {
       position: relative;
       left: 0;
@@ -91,6 +91,8 @@ export default {
     }
     #landing-footer {
       position: relative;
+      left: 0;
+      transform: translateX(0);
       margin-top: 64px;
     }
   }
