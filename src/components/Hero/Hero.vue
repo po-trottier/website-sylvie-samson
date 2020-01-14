@@ -55,7 +55,7 @@ export default {
     transition: ease 0.3s;
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 959px) {
     .xl-text {
       font-size: 45px;
     }

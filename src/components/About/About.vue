@@ -89,7 +89,7 @@ export default {
     }
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 959px) {
     .card-left {
       transform: translateX(0);
       margin-left: auto;

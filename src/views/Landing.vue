@@ -82,7 +82,7 @@ export default {
     transform: translateX(-50%);
   }
 
-  @media screen and (max-height: 800px), (max-width: 960px) {
+  @media screen and (max-height: 800px), (max-width: 959px) {
     #landing-content {
       position: relative;
       left: 0;
