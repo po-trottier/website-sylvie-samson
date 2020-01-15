@@ -5,7 +5,7 @@
       gradient="#000a, #000a"
       style="position: fixed;"
       height="100vh"
-      width="100vh" />
+      width="100vw" />
     <v-container style="position: relative; z-index: 1; height: 100vh;">
       <v-row
         no-gutters
@@ -19,7 +19,7 @@
           <v-card-title class="justify-center">
             <v-icon
               size="150"
-              color="secondary"
+              color="primary"
               class="mb-6">
               mdi-emoticon-sad-outline
             </v-icon>
@@ -40,7 +40,7 @@
               :to="{ name: 'landing' }"
               depressed
               large
-              color="secondary darken-1"
+              color="primary darken-1"
               class="white--text mx-auto mb-4 px-4">
               Retourner / Go Back
             </v-btn>
