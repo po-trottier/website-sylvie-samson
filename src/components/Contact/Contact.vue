@@ -22,7 +22,7 @@
             <v-img
               height="100%"
               position="right"
-              class="rounded-card outlined d-sm-none d-md-block"
+              class="rounded-card outlined no-mobile"
               src="@/assets/images/contact.png" />
           </v-col>
         </v-row>
@@ -53,12 +53,15 @@ export default {
     padding: 64px 16px;
   }
 
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 959px) {
     .right-spacing {
       margin-right: 0;
     }
     .padding {
-      padding: 16px;
+      padding: 32px 16px;
+    }
+    .no-mobile {
+      display: none !important;
     }
   }
 </style>

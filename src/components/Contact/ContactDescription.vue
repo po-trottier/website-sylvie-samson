@@ -10,6 +10,7 @@
       class="mb-6"
       style="display: grid;">
       <span
+        class="mb-2"
         v-for="link in links"
         :key="link.id">
         <a

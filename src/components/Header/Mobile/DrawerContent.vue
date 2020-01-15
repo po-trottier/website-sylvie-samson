@@ -44,17 +44,19 @@
         nav
         class="py-0">
         <v-list-item
-          exact
           color="primary"
           class="text-center"
           v-for="link in links"
-          :key="link.id"
-          @click="scrollTo(link.tag)">
-          <v-list-item-content>
-            <v-list-item-title>
-              {{ link.text }}
-            </v-list-item-title>
-          </v-list-item-content>
+          :key="link.id">
+          <v-btn
+            depressed
+            outlined
+            large
+            block
+            class="black--text"
+            @click="scrollTo(link.tag)">
+            {{ link.text }}
+          </v-btn>
         </v-list-item>
       </v-list>
     </v-sheet>
@@ -107,5 +109,7 @@ export default {
 </script>
 
 <style scoped>
-
+  .v-btn--outlined {
+    border: 2px solid #b2d330 !important;
+  }
 </style>

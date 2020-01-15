@@ -1,6 +1,6 @@
 <template>
   <div id="career">
-    <v-container class="pt-10">
+    <v-container class="padding">
       <h1 class="text-center mb-6">
         {{ $t('career.title') }}
       </h1>
@@ -89,3 +89,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+  .padding {
+    padding: 64px 0;
+  }
+
+  @media screen and (max-width: 959px) {
+    .padding {
+      padding: 32px 16px;
+    }
+  }
+</style>

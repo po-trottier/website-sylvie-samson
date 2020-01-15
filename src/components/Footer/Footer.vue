@@ -56,7 +56,7 @@ export default {
 
   @media screen and (max-width: 959px) {
     .padding {
-      padding: 8px;
+      padding: 16px;
     }
   }
 </style>
