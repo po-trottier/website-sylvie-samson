@@ -3,11 +3,11 @@
     <v-btn
       text
       color="white"
-      v-for="(section, index) in sections"
-      :key="section.id"
-      :class="{ 'splitter': index < sections.length - 1 }"
-      @click="$vuetify.goTo(section.tag, { duration: 500 })">
-      {{ section.text }}
+      v-for="(link, index) in links"
+      :key="link.id"
+      :class="{ 'splitter': index < links.length - 1 }"
+      @click="$vuetify.goTo(link.tag, { duration: 500 })">
+      {{ link.text }}
     </v-btn>
   </v-container>
 </template>
@@ -17,7 +17,7 @@ export default {
   name: 'NavigationLinks',
 
   computed: {
-    sections() {
+    links() {
       return [
         { text: this.$t('header.navigation.home'), tag: '#top' },
         { text: this.$t('header.navigation.about'), tag: '#about' },
