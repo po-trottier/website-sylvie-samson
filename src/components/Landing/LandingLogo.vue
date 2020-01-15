@@ -18,10 +18,10 @@
     </v-avatar>
     <div style="display: grid;">
       <h2 class="large-text unselectable">
-        {{ $t('landing.company') }}
+        {{ $t('general.company') }}
       </h2>
       <span class="text-uppercase unselectable">
-        {{ $t('landing.description') }}
+        {{ $t('general.description') }}
       </span>
     </div>
   </div>

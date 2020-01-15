@@ -55,16 +55,30 @@
     "content3": "Psychosocial counseling can help you to develop a new perspective and understanding on your parental and/or relationship difficulties therefore alleviating stress. This is in an efficient way to gain a more positive perspective and attain a state of well-being and balance, which may presently seem out of reach."
   },
 
-  "footer": {
+  "contact": {
     "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
     "email": "sylvie.samson.ts@gmail.com",
     "phone": "(514) 756-4673",
     "facebook": "Facebook"
   },
 
-  "header": {
+  "footer": {
+    "description": "I am a social worker that offers her services at affordable prices to the clients of the Montreal region.",
+    "accessibility": "Accessibility",
+    "contact": "Contact",
+    "metro": "Metro Henri-Bourassa",
+    "bus": "STM Bus line 69 (Gouin / de la Miséricorde)",
+    "elevator": "Elevators available",
+    "parking": "Parking available"
+  },
+
+  "general": {
     "company": "Sylvie Samson",
-    "description": "Social Worker | Travailleuse Sociale",
+    "description": "Travailleuse Sociale | Social Worker",
+    "socialWorker": "Social Worker"
+  },
+
+  "header": {
     "language": "Language",
     "en": "EN",
     "fr": "FR",
@@ -81,21 +95,29 @@
   },
 
   "home":{
-    "name": "Social Worker",
     "tagline": "At your service",
     "description": "I am an experienced social worker offering psychosocial services to families in the greater Montreal area. I offer workshops on adoption and attachment throughout the regions of Quebec. Please feel free to contact me; it will be a pleasure to work with you.",
     "action": "Contact me"
   },
 
   "landing":{
-    "company": "Sylvie Samson",
-    "description": "Travailleuse Sociale / Social Worker",
     "bienvenue": "Bienvenue",
     "welcome": "Welcome",
     "fr": "Français",
     "frDescription": "Si vous désirez accéder à ce site en Français, veuillez cliquer sur ce bouton.",
     "en": "English",
     "enDescription": "If you want to access the website in English, please click the following button."
+  },
+
+  "questions": {
+    "title": "Any questions ?",
+    "description": "If you have questions about my services or any other inquiries, feel free to send me an e-mail at any time.",
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "subject": "Subject",
+    "message": "Message",
+    "send": "Send"
   },
 
   "views": {

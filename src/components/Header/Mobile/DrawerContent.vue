@@ -10,7 +10,7 @@
         class="unselectable mx-auto text-center"
         style="display: grid; line-height: 1.4rem; opacity: 0.9;">
         <h4 class="text-uppercase font-weight-bold">
-          {{ $t('header.company') }}
+          {{ $t('general.company') }}
         </h4>
       </div>
     </router-link>

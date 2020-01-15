@@ -55,16 +55,30 @@
     "content3": "La consultation psychosocial est un moyen efficace de vous aider à développer une nouvelle façon d’envisager les défis parentaux et/ou relationnels. L’intervention clinique vous permettra de retrouver un état de mieux-être ou l’équilibre tant convoité afin d’affronter la vie sous un meilleur angle."
   },
 
-  "footer": {
+  "contact": {
     "address": "5777 Boulevard Gouin Ouest, Montreal, QC, Canada, H4J 1E3",
     "email": "sylvie.samson.ts@gmail.com",
     "phone": "(514) 756-4673",
     "facebook": "Facebook"
   },
 
-  "header": {
+  "footer": {
+    "description": "Je suis une travailleuse sociale offrant mes compétences et mes services à prix abordables aux clients de la grande région de Montréal.",
+    "accessibility": "Accessibilité",
+    "contact": "Contacter",
+    "metro": "Métro Henri-Bourassa",
+    "bus": "STM Autobus ligne 69 (Gouin / de la Miséricorde)",
+    "elevator": "Ascenseurs disponibles",
+    "parking": "Stationnement disponible"
+  },
+
+  "general": {
     "company": "Sylvie Samson",
     "description": "Travailleuse Sociale | Social Worker",
+    "socialWorker": "Travailleuse sociale"
+  },
+
+  "header": {
     "language": "Langue",
     "en": "EN",
     "fr": "FR",
@@ -81,21 +95,29 @@
   },
 
   "home":{
-    "name": "Travailleuse sociale",
     "tagline": "À votre service",
     "description": "Je suis une travailleuse sociale d’expérience offrant des services psychosociaux aux familles de la grande région de Montréal.  Les formations que j’offre en adoption ainsi qu’en attachement sont disponibles à toutes les régions du Québec.  N’hésitez pas à me contacter. Travailler avec vous sera toujours un plaisir.",
     "action": "Me contacter"
   },
 
   "landing":{
-    "company": "Sylvie Samson",
-    "description": "Travailleuse Sociale / Social Worker",
     "bienvenue": "Bienvenue",
     "welcome": "Welcome",
     "fr": "Français",
     "frDescription": "Si vous désirez accéder à ce site en Français, veuillez cliquer sur ce bouton.",
     "en": "English",
     "enDescription": "If you want to access the website in English, please click the following button."
+  },
+
+  "questions": {
+    "title": "Des questions ?",
+    "description": "Si vous avez des questions au sujet de mes services ou autre, sentez-vous libre de m'envoyer un courriel à tout moment.",
+    "name": "Nom complet",
+    "email": "Courriel",
+    "phone": "Numéro de téléphone",
+    "subject": "Sujet",
+    "message": "Message",
+    "send": "Envoyer"
   },
 
   "views": {

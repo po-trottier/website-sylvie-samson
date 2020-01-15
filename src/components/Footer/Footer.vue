@@ -6,112 +6,57 @@
         tile
         color="light"
         class="w-100">
-        <v-container class="narrow text-sm-center text-md-left my-4">
-          <v-row>
+        <v-container class="text-sm-center text-md-left padding">
+          <v-row class="narrow">
             <v-col
               cols="12"
               md="4">
-              <h4>
-                Sylvie Samson
-              </h4>
-              <p class="text-uppercase mb-1">
-                Travailleuse Sociale
-              </p>
-              <p
-                class="ma-0 limit-width">
-                Je suis une travailleuse sociale d’expérience offrant des services psychosociaux
-                aux familles.
-              </p>
+              <app-footer-description />
             </v-col>
             <v-col
               cols="12"
               md="4">
-              <h5 class="mb-4">
-                Accessibilité:
-              </h5>
-              <p class="ma-0">
-                Métro Henri-Bourassa
-              </p>
-              <p class="ma-0">
-                Autobus 69 (Gouin / de la Miséricorde)
-              </p>
-              <p class="ma-0">
-                Ascenseurs disponibles
-              </p>
-              <p class="ma-0">
-                Stationnement disponible
-              </p>
+              <app-footer-accessibility />
             </v-col>
             <v-col
               cols="12"
               md="4">
-              <h5 class="mb-4">
-                Contact
-              </h5>
-              <p
-                class="mb-0 mt-2"
-                style="line-height: 1.2rem;"
-                v-for="link in contact"
-                :key="link.id">
-                <a
-                  :href="link.url"
-                  target="_blank">
-                  {{ link.text }}
-                </a>
-              </p>
+              <app-footer-contact />
             </v-col>
           </v-row>
         </v-container>
       </v-sheet>
-      <v-sheet
-        tile
-        color="black"
-        class="white--text w-100">
-        <v-container class="text-center">
-          <p class="mb-0">
-            © 2018 Sylvie Samson
-          </p>
-          <p class="mb-0">
-            Conception by
-            <a
-              href="https://p-o.design"
-              target="_blank"
-              class="white--text">
-              <b>PO_Design</b>
-            </a>
-          </p>
-        </v-container>
-      </v-sheet>
+      <app-footer-copyrights />
     </v-footer>
   </div>
 </template>
 
 <script>
+import FooterDescription from './FooterDescription.vue';
+import FooterAccessibility from './FooterAccessibility.vue';
+import FooterContact from './FooterContact.vue';
+import FooterCopyrights from './FooterCopyrights.vue';
+
 export default {
   name: 'Footer',
 
-  computed: {
-    contact() {
-      return [
-        { text: 'sylvie.samson.ts@gmail.com', url: 'mailto:sylvie.samson.ts@gmail.com' },
-        { text: '(514) 756-4673', url: 'tel:+15147564673' },
-        { text: '5777 Boulevard Gouin Ouest Montreal QC Canada H4J 1E3', url: 'https://goo.gl/maps/fnV2yrT3Byz' },
-      ];
-    },
+  components: {
+    appFooterDescription: FooterDescription,
+    appFooterAccessibility: FooterAccessibility,
+    appFooterContact: FooterContact,
+    appFooterCopyrights: FooterCopyrights,
   },
 };
 </script>
 
 <style scoped>
-  .limit-width {
-    max-width: 320px;
+  .padding {
+    padding: 32px 0;
   }
 
   @media screen and (max-width: 959px) {
-    .limit-width {
-      max-width: 400px;
-      margin-left: auto !important;
-      margin-right: auto !important;;
+    .padding {
+      padding: 8px;
     }
   }
 </style>

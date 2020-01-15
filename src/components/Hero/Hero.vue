@@ -7,7 +7,7 @@
       <div id="home-overlay" />
       <v-container class="elevate text-center">
         <h2>
-          {{ $t('home.name') }}
+          {{ $t('general.socialWorker') }}
         </h2>
         <h1 class="xl-text mb-5">
           {{ $t('home.tagline') }}

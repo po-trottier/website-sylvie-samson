@@ -17,10 +17,10 @@
       class="unselectable my-auto"
       style="display: grid; line-height: 1.4rem; opacity: 0.9;">
       <h4 class="text-uppercase font-weight-bold">
-        {{ $t('header.company') }}
+        {{ $t('general.company') }}
       </h4>
       <span class="text-none text--secondary">
-        {{ $t('header.description') }}
+        {{ $t('general.description') }}
       </span>
     </div>
     <v-spacer />

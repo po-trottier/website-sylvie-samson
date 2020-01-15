@@ -1,32 +1,32 @@
 <template>
   <div>
-    <span class="d-flex align-center mb-4">
-      <v-icon
-        color="grey"
-        class="mr-2">
-        mdi-email
-      </v-icon>
-      <h5>
-        {{ $t('footer.contact') }}
-      </h5>
-    </span>
-    <ul>
-      <li
+    <h3 class="mb-6">
+      {{ $t('questions.title') }}
+    </h3>
+    <p>
+      {{ $t('questions.description') }}
+    </p>
+    <div
+      class="mb-6"
+      style="display: grid;">
+      <span
         v-for="link in links"
         :key="link.id">
         <a
           :href="link.url"
           target="_blank">
-          {{ link.text }}
+          <u>
+            {{ link.text }}
+          </u>
         </a>
-      </li>
-    </ul>
+      </span>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'FooterContact',
+  name: 'ContactDescription',
 
   computed: {
     links() {

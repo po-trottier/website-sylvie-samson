@@ -51,10 +51,10 @@ export default {
   data() {
     return {
       links: [
-        { text: this.$t('footer.address'), url: 'https://goo.gl/maps/fnV2yrT3Byz' },
-        { text: this.$t('footer.email'), url: 'mailto:sylvie.samson.ts@gmail.com' },
-        { text: this.$t('footer.phone'), url: 'tel:+15147564673' },
-        { text: this.$t('footer.facebook'), url: 'https://fb.me/sylvie.samson.ts' },
+        { text: this.$t('contact.address'), url: 'https://goo.gl/maps/fnV2yrT3Byz' },
+        { text: this.$t('contact.email'), url: 'mailto:sylvie.samson.ts@gmail.com' },
+        { text: this.$t('contact.phone'), url: 'tel:+15147564673' },
+        { text: this.$t('contact.facebook'), url: 'https://fb.me/sylvie.samson.ts' },
       ],
     };
   },

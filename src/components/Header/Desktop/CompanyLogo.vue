@@ -12,10 +12,10 @@
       class="unselectable my-auto"
       style="display: grid;">
       <h4 class="headline text-uppercase font-weight-bold">
-        {{ $t('header.company') }}
+        {{ $t('general.company') }}
       </h4>
       <span class="text-none">
-        {{ $t('header.description') }}
+        {{ $t('general.description') }}
       </span>
     </div>
   </router-link>
