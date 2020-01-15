@@ -18,9 +18,14 @@ import ContactFailDialog from '@/components/Contact/ContactFailDialog.vue';
 export default {
   name: 'App',
 
-  metaInfo: {
-    title: 'Sylvie Samson',
-    titleTemplate: '%s | Sylvie Samson',
+  metaInfo() {
+    return {
+      title: 'Sylvie Samson',
+      titleTemplate: '%s | Sylvie Samson',
+      htmlAttrs: {
+        lang: this.$i18n.locale,
+      },
+    };
   },
 
   methods: {
