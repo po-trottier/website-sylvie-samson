@@ -5,15 +5,15 @@
     class="white--text w-100">
     <v-container class="text-center">
       <p class="mb-0">
-        © 2018 Sylvie Samson
+        © {{ year + ' ' + $t('general.company') }}
       </p>
       <p class="mb-0">
-        Conception by
+        {{ $t('footer.conception') }}
         <a
           href="https://p-o.design"
           target="_blank"
           class="white--text">
-          <b>PO_Design</b>
+          <b>{{ $t('footer.designer') }}</b>
         </a>
       </p>
     </v-container>
@@ -23,5 +23,12 @@
 <script>
 export default {
   name: 'FooterCopyrights',
+
+  computed: {
+    year() {
+      const d = new Date();
+      return d.getFullYear();
+    },
+  },
 };
 </script>

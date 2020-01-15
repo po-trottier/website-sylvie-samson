@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "lock": "node ./scripts/npm/lock.js",
+    "unlock": "node ./scripts/npm/unlock.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.4.4",
+    "emailjs-com": "^2.4.1",
     "vue": "^2.6.10",
     "vue-i18n": "^8.0.0",
     "vue-meta": "^2.3.1",

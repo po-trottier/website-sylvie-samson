@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span class="d-flex align-center mb-4">
+    <span class="d-flex align-center justify-sm-center justify-md-start mb-4">
       <v-icon
         color="grey"
         class="mr-2">
@@ -32,3 +32,14 @@ export default {
   name: 'FooterAccessibility',
 };
 </script>
+
+<style scoped>
+  @media screen and (max-width: 959px) {
+    .v-application ul, .v-application ol {
+      padding-left: 0 !important;
+    }
+    ul {
+      list-style-type: none;
+    }
+  }
+</style>

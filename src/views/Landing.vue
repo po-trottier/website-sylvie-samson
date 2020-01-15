@@ -30,6 +30,7 @@ export default {
   metaInfo() {
     return {
       title: this.$t('views.landing'),
+      titleTemplate: null,
     };
   },
 

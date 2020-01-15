@@ -4,12 +4,16 @@
       <transition name="fade">
         <router-view />
       </transition>
+      <app-contact-success />
+      <app-contact-fail />
     </v-content>
   </v-app>
 </template>
 
 <script>
 import { mapActions } from 'vuex';
+import ContactSuccessDialog from '@/components/Contact/ContactSuccessDialog.vue';
+import ContactFailDialog from '@/components/Contact/ContactFailDialog.vue';
 
 export default {
   name: 'App',
@@ -28,6 +32,11 @@ export default {
       this.setWidth(window.innerWidth);
       this.setHeight(window.innerHeight);
     });
+  },
+
+  components: {
+    appContactSuccess: ContactSuccessDialog,
+    appContactFail: ContactFailDialog,
   },
 };
 </script>

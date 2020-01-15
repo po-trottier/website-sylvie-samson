@@ -62,8 +62,25 @@
     "facebook": "Facebook"
   },
 
+  "dialogs": {
+    "successMail": {
+      "title": "Email sent successfully!",
+      "text": "Thank you for taking the time to contact me. Your email was sent properly. I will try to answer it as soon as I can.",
+      "call": "If your matter if urgent, you can call me at the number located on the website.",
+      "button": "Okay"
+    },
+    "failMail": {
+      "title": "Failed to send email!",
+      "text": "Thank you for taking the time to contact me. Unfortunately your email was not sent.",
+      "call": "If this problem persists, you can contact me by send an email at the address found on the website or by calling the number available on the website.",
+      "button": "Okay"
+    }
+  },
+
   "footer": {
     "description": "I am a social worker that offers her services at affordable prices to the clients of the Montreal region.",
+    "conception": "Created by",
+    "designer": "PO_Design",
     "accessibility": "Accessibility",
     "contact": "Contact",
     "metro": "Metro Henri-Bourassa",
@@ -122,6 +139,6 @@
 
   "views": {
     "home": "Home",
-    "landing": "Travailleuse Sociale | Social Worker"
+    "landing": "Sylvie Samson | Travailleuse Sociale | Social Worker | Montréal,Québec,Canada"
   }
 }

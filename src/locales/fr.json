@@ -62,8 +62,25 @@
     "facebook": "Facebook"
   },
 
+  "dialogs": {
+    "successMail": {
+      "title": "Courriel envoyé avec succès!",
+      "text": "Merci d'avoir pris le temps de me contacter. Votre courriel a bien été envoyé. Je tenterai d'y répondre le plus rapidement possible.",
+      "call": "Si votre problème est urgent, vous pouvez m'appeller au numéro disponible sur le site.",
+      "button": "Okay"
+    },
+    "failMail": {
+      "title": "L'envoie du courriel a échoué!",
+      "text": "Merci d'avoir pris le temps de me contacter. Malheureusement votre courriel n'a pas pû être envoyé.",
+      "call": "Si ce problème persiste, vous pouvez me contacter en m'envoyant un courriel à l'adresse disponible sur le site ou en m'appellant au numéro disponible sur le site.",
+      "button": "Okay"
+    }
+  },
+
   "footer": {
     "description": "Je suis une travailleuse sociale offrant mes compétences et mes services à prix abordables aux clients de la grande région de Montréal.",
+    "conception": "Conception par",
+    "designer": "PO_Design",
     "accessibility": "Accessibilité",
     "contact": "Contacter",
     "metro": "Métro Henri-Bourassa",
@@ -122,6 +139,6 @@
 
   "views": {
     "home": "Accueil",
-    "landing": "Travailleuse Sociale | Social Worker"
+    "landing": "Sylvie Samson | Travailleuse Sociale | Social Worker | Montréal,Québec,Canada"
   }
 }
