@@ -16,4 +16,13 @@ export default [
     name: 'accueil',
     component: () => import('@/views/Home.vue'),
   },
+  {
+    path: '/404',
+    name: 'invalid',
+    component: () => import('@/views/Invalid.vue'),
+  },
+  {
+    path: '*',
+    redirect: { name: 'invalid' },
+  },
 ];

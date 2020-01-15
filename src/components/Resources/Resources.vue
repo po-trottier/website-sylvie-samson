@@ -1,9 +1,12 @@
 <template>
   <div id="resources">
     <v-container class="text-center padding">
-      <h3 class="mb-6">
+      <h3 class="mb-4">
         {{ $t('resources.title') }}
       </h3>
+      <h5 class="mb-6">
+        Click on any of the following links to visit the resource.
+      </h5>
       <v-row
         no-gutters
         class="narrow">
