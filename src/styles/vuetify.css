@@ -42,6 +42,14 @@
   padding: 0 !important;
 }
 
+.theme--dark.v-text-field--outlined fieldset {
+  border-color: rgba(255, 255, 255, 0.6);
+}
+
 .theme--light.v-card > .v-card__text, .theme--light.v-card .v-card__subtitle {
   color: rgba(0, 0, 0, 0.75) !important;
+}
+
+.theme--dark.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined) {
+  background-color: rgba(0, 0, 0, 0.3) !important;
 }
