@@ -137,6 +137,13 @@
     "send": "Envoyer"
   },
 
+  "resources": {
+    "title": "Ressources",
+    "link1": "Ordre des travailleurs sociaux",
+    "link2": "Secrétariat à l'adoption\ninternationale",
+    "link3": "Pétales Québec"
+  },
+
   "views": {
     "home": "Accueil",
     "landing": "Sylvie Samson | Travailleuse Sociale | Social Worker | Montréal,Québec,Canada"
