@@ -1,7 +1,7 @@
 {
   "name": "sylvie-samson",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "lock": "node ./scripts/npm/lock.js",
     "unlock": "node ./scripts/npm/unlock.js",
