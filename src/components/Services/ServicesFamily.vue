@@ -5,7 +5,7 @@
     height="100%">
     <v-img
       height="250"
-      src="@/assets/images/family.png" />
+      src="@/assets/images/families.png" />
     <v-card-subtitle class="mt-3">
       <h5 class="text-center">
         {{ $t('services.family') }}
