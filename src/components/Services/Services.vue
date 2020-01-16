@@ -1,7 +1,17 @@
 <template>
   <div id="services">
     <v-container class="padding">
-      <h1>Services</h1>
+      <div class="narrow">
+        <h1 class="text-center">
+          {{ $t('services.title') }}
+        </h1>
+        <v-divider
+          width="100px"
+          class="mx-auto my-4" />
+        <p class="text-center">
+          {{ $t('services.description') }}
+        </p>
+      </div>
     </v-container>
   </div>
 </template>
@@ -13,6 +23,11 @@ export default {
 </script>
 
 <style scoped>
+  .theme--light.v-divider {
+    border-color: rgba(0, 0, 0, 0.75) !important;
+    border-width: 3px !important;
+  }
+
   .padding {
     padding: 64px 0;
   }

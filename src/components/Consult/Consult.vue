@@ -13,7 +13,7 @@
             <v-img
               height="100%"
               class="rounded-card outlined"
-              src="@/assets/images/session.jpg" />
+              src="@/assets/images/zen.png" />
           </v-col>
           <v-col
             cols="12"

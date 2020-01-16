@@ -26,13 +26,13 @@
           </v-card-title>
           <v-card-subtitle class="mb-2">
             <h1 class="text-center mb-6">
-              Oups!
+              {{ $t('404.oops') }}
             </h1>
             <h4 class="text-center mb-2">
-              Vous ne devriez pas être ici...
+              {{ $t('404.fr') }}
             </h4>
             <h4 class="text-center">
-              You shouldn't be here...
+              {{ $t('404.en') }}
             </h4>
           </v-card-subtitle>
           <v-card-actions>
@@ -42,7 +42,7 @@
               large
               color="primary darken-1"
               class="white--text mx-auto mb-4 px-4">
-              Retourner / Go Back
+              {{ $t('404.button') }}
             </v-btn>
           </v-card-actions>
         </v-card>

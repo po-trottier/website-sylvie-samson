@@ -1,4 +1,11 @@
 {
+  "404": {
+    "oops": "Oups!",
+    "fr": "Vous ne devriez pas être ici",
+    "en": "You shouldn't be here",
+    "button": "Retourner / Go Back"
+  },
+
   "about": {
     "title": "About me",
     "content1": "I am a professional Social Worker who has been working for over 20 years, and I am as passionate about this profession, as I was when I started in this field.",
@@ -10,7 +17,7 @@
   "approach": {
     "title": "Approach",
     "subtitle": "A modern and efficient approach.",
-    "content1": "I use a systemic approach, that is to say that I work with the individual in the context of their larger environment. This intervention model allows clients to better understand their present functioning within the context of interactions with others and their environment. ",
+    "content1": "I use a systemic approach, that is to say that I work with the individual in the context of their larger environment. This intervention model allows clients to better understand their present functioning within the context of interactions with others and their environment.",
     "content2": "This approach supports clients’ self-determination which means that each client has the ability to decide what is best for him/herself. As such, a common language and understanding of the issue will be defined and new ways of thinking and identifying new strategies will be established.  The ultimate goal is for clients to feel a greater sense of personal and family empowerment in their day to day lives."
   },
 
@@ -142,6 +149,37 @@
     "link1": "Ordre des travailleurs sociaux",
     "link2": "Secrétariat à l'adoption\ninternationale",
     "link3": "Pétales Québec"
+  },
+
+  "services": {
+    "title": "Services",
+    "description": "The bio-psycho-social development of human beings is complex and can be very hard to figure out!  Attachment, harmony and family balance are all important in every-day life. They affect all families, whether they are formed biologically or through adoption. Our often-hectic lifestyle, or daily stressors and challenges of raising children are some examples of issues that can cause tension or imbalance within a family. Psychosocial services are a proven service to aid in family functioning.",
+    "offer": "That's why I offer the following services",
+    "individual": "Individual intervention",
+    "individualContent": "Individual intervention gives you a non-judgmental space to allow you to talk through or reflect on difficult issues you face. These meetings are intended to support and help you find concrete ways to act during your process of change, promoting a greater sense of peace and well-being.  Our goal will be to establish a concrete plan of action centered on the here and now. Help is available; do not stay alone with your pain.",
+    "family": "Family Intervention",
+    "familyContent": "Interactions between different members of a family can be very complex and may require the help of a social worker to facilitate communication. Psychosocial support in a neutral environment may assist the development of healthy family relationships. In addition, parents can benefit from guidance to learn effective parenting interventions that respects family values and their child’s development. Together, our goals would be to establish a concrete plan of action centered on the here and now to enhance parental competency and family harmony. Do not stay stuck with discomfort within your family; solutions are possible.",
+    "parents": "Training for parents",
+    "parentsContent": {
+      "part1": "Parental training can help you:",
+      "bullet1": "Have better understanding of the specific issues in the context of adoption",
+      "bullet2": "Acquire more knowledge to confirm what type of adoption projects better corresponds to your profile (age, special needs, sibling group)",
+      "bullet3": "Feel better prepared to welcome your child in his forever family",
+      "part2": "These courses respect the requirements of the different Countries.",
+      "part3": "A training for all of your extended family is also available. This training can provide your family with:",
+      "bullet4": "A better understanding of specific adoption issues",
+      "bullet5": "Understand specific parenting guidelines",
+      "bullet6": "More awareness to avoid future conflict or misunderstanding",
+      "part4": "All these courses could be offered to you in the comfort of your home, according to a schedule suited to your needs-whether you are from the Montreal area or not."
+    },
+    "professionals": "Training for professionals",
+    "professionalsContent": {
+      "part1": "These trainings will allow you to:",
+      "bullet1": "Improve your knowledge relating to attachment",
+      "bullet2": "To better understand the impact of insecure attachment on children’s behaviors",
+      "bullet3": "To have more tools to support these children",
+      "part2": "A personalized session developed specifically to answer your needs can be provided."
+    }
   },
 
   "views": {
