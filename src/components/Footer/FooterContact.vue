@@ -1,6 +1,6 @@
 <template>
   <div>
-    <span class="d-flex align-center justify-sm-center justify-md-start mb-4">
+    <span class="d-flex align-center justify-center text-center justify-md-start text-md-left mb-4">
       <v-icon
         color="grey"
         class="mr-2">
@@ -47,6 +47,9 @@ export default {
     }
     ul {
       list-style-type: none;
+    }
+    li {
+      text-align: center !important;
     }
   }
 </style>

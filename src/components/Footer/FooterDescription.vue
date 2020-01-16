@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="text-center text-md-left">
     <h4>
       {{ $t('general.company') }}
     </h4>
