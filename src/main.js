@@ -1,5 +1,6 @@
 // Import Packages
 import meta from 'vue-meta';
+import gtag from 'vue-gtag';
 
 // Import Vue Application
 import Vue from 'vue';
@@ -19,7 +20,19 @@ import '@/styles/layout.css';
 import '@/styles/vuetify.css';
 
 // Use the Packages
-Vue.use(meta);
+Vue.use(meta, {
+  refreshOnceOnNavigation: true,
+});
+
+Vue.use(
+  gtag,
+  {
+    config: { id: 'UA-156344277-1' },
+    appName: 'Sylvie Samson',
+    pageTrackerScreenviewEnabled: true,
+  },
+  router,
+);
 
 // Initiate Vue
 new Vue({
