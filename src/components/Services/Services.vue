@@ -1,40 +1,69 @@
 <template>
   <div id="services">
     <v-container class="padding">
-      <div class="narrow">
-        <h1 class="text-center">
-          {{ $t('services.title') }}
-        </h1>
-        <v-divider
-          width="100px"
-          class="mx-auto my-4" />
-        <p class="text-center">
-          {{ $t('services.description') }}
-        </p>
-      </div>
+      <app-services-description />
+      <v-row no-gutters>
+        <v-col
+          class="pa-4"
+          cols="12"
+          md="6"
+          xl="3">
+          <app-services-individual />
+        </v-col>
+        <v-col
+          class="pa-4"
+          cols="12"
+          md="6"
+          xl="3">
+          <app-services-family />
+        </v-col>
+        <v-col
+          class="pa-4"
+          cols="12"
+          md="6"
+          xl="3">
+          <app-services-parents />
+        </v-col>
+        <v-col
+          class="pa-4"
+          cols="12"
+          md="6"
+          xl="3">
+          <app-services-professionals />
+        </v-col>
+      </v-row>
     </v-container>
   </div>
 </template>
 
 <script>
+import ServicesDescription from './ServicesDescription.vue';
+import ServicesIndividual from './ServicesIndividual.vue';
+import ServicesFamily from './ServicesFamily.vue';
+import ServicesProfessionals from './ServicesProfessionals.vue';
+import ServicesParents from './ServicesParents.vue';
+
 export default {
   name: 'Services',
+
+  components: {
+    appServicesDescription: ServicesDescription,
+    appServicesFamily: ServicesFamily,
+    appServicesIndividual: ServicesIndividual,
+    appServicesProfessionals: ServicesProfessionals,
+    appServicesParents: ServicesParents,
+  },
 };
 </script>
 
 <style scoped>
-  .theme--light.v-divider {
-    border-color: rgba(0, 0, 0, 0.75) !important;
-    border-width: 3px !important;
-  }
-
   .padding {
     padding: 64px 0;
   }
 
   @media screen and (max-width: 959px) {
     .padding {
-      padding: 8px 0;
+      padding: 32px 16px;
     }
   }
 </style>

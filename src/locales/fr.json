@@ -154,7 +154,6 @@
   "services": {
     "title": "Services",
     "description": "Le développement biopsychosocial de l’être humain est complexe, donc raison de plus d’avoir du mal à s’y retrouver !  L’attachement, l’harmonie et l’équilibre familial sont tous des sujets d’actualité qui touchent toutes les familles, qu’elles soient biologiques ou formées par adoption.  Nos préoccupations quotidiennes, notre rythme de vie moderne souvent effréné ou nos différents stress quotidiens sont quelques exemples de défis qui peuvent provoquer des tensions ou un déséquilibre au sein d’une famille.",
-    "offer": "C’est pourquoi je vous propose les services suivants",
     "individual": "Intervention individuelle",
     "individualContent": "Le suivi individuel fournit un espace sans jugement pour vous permettre de vous exprimer et réfléchir au sujet des enjeux difficiles que vous vivez.  Ces rencontres ont pour but de vous aider à trouver des moyens d’action concrets et de vous soutenir dans la mise en place de ceux-ci et ce, afin de ressentir un plus grand sentiment d’apaisement.   Notre plan d’action sera concret et centré sur l’ici et maintenant. De l’aide est disponible ; ne restez seul avec votre souffrance.",
     "family": "Intervention Familiale",
@@ -162,15 +161,10 @@
     "parents": "formations aux parents",
     "parentsContent": {
       "part1": "Celles-ci vous permettront :",
-      "bullet1": "De bien saisir les enjeux spécifiques au contexte de l’adoption",
-      "bullet2": "De confirmer la nature du projet qui convient à votre profil (âge, besoins particuliers, fratries, etc.)",
-      "bullet3": "De vous sentir vous outillés et prêt à accueillir votre enfant",
-      "part2": "Ces formations respectent les critères exigés par les pays d’origines.",
-      "part3": "Une formation s’adressant à l’ensemble de votre famille élargie vous est aussi offerte. Celle-ci leur permettra :",
-      "bullet4": "De les familiariser avec les particularités de l’adoption",
-      "bullet5": "De leur permettre de comprendre les motifs derrière certaines approches parentales un peu différentes",
-      "bullet6": "D’éviter que des conflits surviennent entre vous tous",
-      "part4": "Toutes ces formations pourraient vous être offertes dans le confort de votre foyer, selon un horaire adapté à vos besoins que vous soyez de la région de Montréal ou pas."
+      "part2": "De bien saisir les enjeux spécifiques au contexte de l’adoption. De confirmer la nature du projet qui convient à votre profil (âge, besoins particuliers, fratries, etc.). De vous sentir vous outillés et prêt à accueillir votre enfant.",
+      "part3": "Une formation s’adressant à l’ensemble de votre famille élargie vous est aussi offerte.",
+      "part4": "Ces formations respectent les critères exigés par les pays d’origines.",
+      "part5": "Toutes ces formations pourraient vous être offertes dans le confort de votre foyer."
     },
     "professionals": "Formations aux professionnels",
     "professionalsContent": {

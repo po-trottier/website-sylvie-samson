@@ -4,8 +4,8 @@
     <v-sheet
       tile
       color="light">
-      <v-container class="padding narrow">
-        <v-row>
+      <v-container class="padding">
+        <v-row class="narrow">
           <v-col
             cols="12"
             md="4"
@@ -99,7 +99,7 @@ export default {
 
 <style scoped>
   .padding {
-    padding: 48px 12px;
+    padding: 48px 0;
   }
   .card-padding {
     padding: 16px;
