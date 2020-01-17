@@ -6,7 +6,7 @@
       v-for="(link, index) in links"
       :key="link.id"
       :class="{ 'splitter': index < links.length - 1 }"
-      @click="$vuetify.goTo(link.tag, { duration: 500 })">
+      @click="$vuetify.goTo(link.tag, { duration: 500, offset: -105 })">
       {{ link.text }}
     </v-btn>
   </v-container>

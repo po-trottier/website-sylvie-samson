@@ -39,7 +39,7 @@
                   outlined
                   large
                   class="px-4 mx-auto"
-                  @click="$vuetify.goTo('#career', { duration: 500 })">
+                  @click="$vuetify.goTo('#career', { duration: 500, offset: -105 })">
                   {{ $t('about.career') }}
                 </v-btn>
               </v-card-actions>

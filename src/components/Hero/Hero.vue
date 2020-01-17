@@ -22,7 +22,7 @@
           depressed
           large
           color="white"
-          @click="$vuetify.goTo('#contact', { duration: 500 })">
+          @click="$vuetify.goTo('#contact', { duration: 500, offset: -105 })">
           {{ $t('home.action') }}
         </v-btn>
       </v-container>
