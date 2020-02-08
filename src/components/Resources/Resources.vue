@@ -4,8 +4,8 @@
       <h3 class="mb-4">
         {{ $t('resources.title') }}
       </h3>
-      <h5 class="mb-6">
-        Click on any of the following links to visit the resource.
+      <h5 class="mb-6 px-6">
+        {{ $t('resources.subtitle') }}
       </h5>
       <v-row
         no-gutters

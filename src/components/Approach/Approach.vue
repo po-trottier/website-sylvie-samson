@@ -13,7 +13,7 @@
             md="6"
             lg="5">
             <v-card
-              raised
+              :elevation="phone ? 0 : 10"
               class="pa-4 card-left">
               <v-card-title class="justify-center">
                 <h3 class="mb-2">
@@ -49,8 +49,14 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
   name: 'Approach',
+
+  computed: {
+    ...mapGetters('size', ['phone']),
+  },
 };
 </script>
 

@@ -107,7 +107,7 @@ export default {
 
   @media screen and (max-width: 959px) {
     .padding {
-      padding: 16px;
+      padding: 0;
     }
     .card-padding {
       padding: 0;

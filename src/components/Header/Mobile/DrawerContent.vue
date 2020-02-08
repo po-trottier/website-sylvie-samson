@@ -45,12 +45,10 @@
         class="py-0">
         <v-list-item
           color="primary"
-          class="text-center"
           v-for="link in links"
           :key="link.id">
           <v-btn
             depressed
-            outlined
             large
             block
             class="black--text"

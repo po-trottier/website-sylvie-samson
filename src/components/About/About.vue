@@ -20,7 +20,7 @@
             cols="12"
             md="5">
             <v-card
-              raised
+              :elevation="phone ? 0 : 10"
               class="card-right pa-4">
               <v-card-title class="justify-center mb-2">
                 <h3 class="text-center">
@@ -52,8 +52,14 @@
 </template>
 
 <script>
+import { mapGetters } from 'vuex';
+
 export default {
   name: 'About',
+
+  computed: {
+    ...mapGetters('size', ['phone']),
+  },
 };
 </script>
 
