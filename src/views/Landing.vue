@@ -9,6 +9,9 @@
       <source
         src="@/assets/videos/landing.mp4"
         type="video/mp4">
+      <img
+        src="@/assets/images/family.png"
+        alt="Alternative Background Image">
     </video>
     <v-img
       v-else
@@ -66,6 +69,7 @@ export default {
     opacity: 0.5;
     height: 100vh;
     width: 100vw;
+    top: 0;
   }
 
   #landing-content {

@@ -43,6 +43,7 @@ export default {
     height: 1000px;
     background-color: black;
     opacity: 0.40;
+    top: 0;
   }
 
   .elevate {
