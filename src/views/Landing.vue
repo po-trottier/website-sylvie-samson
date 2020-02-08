@@ -3,6 +3,7 @@
     <video
       v-if="desktop"
       id="landing-video"
+      poster="@/assets/images/family.png"
       autoplay
       loop>
       <source
