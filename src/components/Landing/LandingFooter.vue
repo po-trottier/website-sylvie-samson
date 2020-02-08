@@ -1,5 +1,13 @@
 <template>
   <v-container>
+    <v-row justify="center">
+      <h2 class="discrete text-center white--text mb-4">
+        Sylvie Samson est une travailleuse sociale basée dans la région de Montréal qui est
+        spécialisée en adoption.
+        <br>
+        Sylvie Samson is a social worker based in the Montreal area that specialises in adoption.
+      </h2>
+    </v-row>
     <v-row
       v-if="desktop"
       no-gutters
@@ -72,5 +80,12 @@ export default {
 
   .top-border {
     border-top: 4px solid white;
+  }
+
+  .discrete {
+    opacity: 0.75 !important;
+    font-size: 1rem !important;
+    font-weight: normal !important;
+    font-family: 'Avenir Next LT', 'Roboto', sans-serif !important;
   }
 </style>
