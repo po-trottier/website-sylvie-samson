@@ -1,5 +1,5 @@
 <template>
-  <v-app>
+  <v-app style="overflow-x: hidden;">
     <v-content>
       <transition name="fade">
         <router-view />
