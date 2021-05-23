@@ -10,7 +10,7 @@
       <p class="mb-0">
         {{ $t('footer.conception') }}
         <a
-          href="https://p-o.design"
+          href="https://p-o.me"
           target="_blank"
           class="white--text">
           <b>{{ $t('footer.designer') }}</b>
