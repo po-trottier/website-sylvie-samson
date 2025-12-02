@@ -4,13 +4,15 @@ import gtag from 'vue-gtag';
 
 // Import Vue Application
 import Vue from 'vue';
-import App from './App.vue';
 
 // Import Plugins
 import router from '@/router';
 import store from '@/store';
 import i18n from '@/plugins/i18n';
 import vuetify from '@/plugins/vuetify';
+
+// Import App Component
+import App from './App.vue';
 
 // Import Stylesheets
 import '@/styles/fonts/AvenirNextLT/index.css';

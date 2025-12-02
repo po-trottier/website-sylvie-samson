@@ -1,11 +1,13 @@
 const state = {
   successMail: false,
   failMail: false,
+  retirement: false,
 };
 
 const getters = {
   successMail: s => s.successMail,
   failMail: s => s.failMail,
+  retirement: s => s.retirement,
 };
 
 const mutations = {
@@ -15,6 +17,9 @@ const mutations = {
   mutateFailMail: (s, payload) => {
     s.failMail = payload;
   },
+  mutateRetirement: (s, payload) => {
+    s.retirement = payload;
+  },
 };
 
 const actions = {
@@ -23,6 +28,9 @@ const actions = {
   },
   setFailMail: (context, payload) => {
     context.commit('mutateFailMail', payload);
+  },
+  setRetirement: (context, payload) => {
+    context.commit('mutateRetirement', payload);
   },
 };
 

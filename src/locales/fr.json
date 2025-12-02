@@ -74,13 +74,18 @@
       "title": "Courriel envoyé avec succès!",
       "text": "Merci d'avoir pris le temps de me contacter. Votre courriel a bien été envoyé. Je tenterai d'y répondre le plus rapidement possible.",
       "call": "Si votre problème est urgent, vous pouvez m'appeller au numéro disponible sur le site.",
-      "button": "Okay"
+      "button": "Fermer"
     },
     "failMail": {
       "title": "L'envoie du courriel a échoué!",
       "text": "Merci d'avoir pris le temps de me contacter. Malheureusement votre courriel n'a pas pû être envoyé.",
       "call": "Si ce problème persiste, vous pouvez me contacter en m'envoyant un courriel à l'adresse disponible sur le site ou en m'appellant au numéro disponible sur le site.",
-      "button": "Okay"
+      "button": "Fermer"
+    },
+    "retirement": {
+      "title": "Avis important",
+      "text": "Après de nombreuses années enrichissantes à accompagner les enfants et les familles dans leur parcours d’adoption, <b>j’ai décidé de prendre ma retraite à compter du <u>30 novembre 2025</u></b>. Je suis profondément reconnaissante pour la confiance, la gentillesse et les moments mémorables partagés avec tant de personnes formidables. Merci à tous d’avoir rendu ces années si spéciales!",
+      "button": "Fermer"
     }
   },
 
